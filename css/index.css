@@ -1,0 +1,109 @@
+.main img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5D3A2;
+    font-size: 128px;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+
+.main {
+    background-color: #A68156;
+    margin: 0px;
+    padding: 50px;
+    width: 100%;
+}
+
+.main p {
+    color: #F5D3A2;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.rankings {
+    background-color: #F5D3A2;
+    padding: 50px;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start; /* Align items at the start of the container */
+    align-items: center;
+}
+
+#img1 {
+    margin-left: auto;
+}
+
+.rankings h2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #664F35;
+    font-size: 100px;
+}
+
+.rankings a {
+    color: #664F35;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.rankings a:hover {
+    text-decoration: underline;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.aboutMe {
+    background-color: #664F35;
+    padding: 50px;
+    width: 100%;
+
+    margin: 100px;
+    padding: 50px 100px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-wrap: break-word;
+    gap: 50px;
+}
+
+.aboutMe h2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #CC9E6A;
+    font-size: 100px;
+}
+
+.aboutMe p {
+    color: #CC9E6A;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
