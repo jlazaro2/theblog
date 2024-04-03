@@ -13,7 +13,7 @@ h1 {
     color: #F5D3A2;
     font-size: 128px;
     position: absolute;
-    top: 60%;
+    top: 700px;
     left: 55%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -44,13 +44,21 @@ h1 {
     padding: 50px;
     width: 100%;
 
-    display: flex;
-    justify-content: flex-start; /* Align items at the start of the container */
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 #img1 {
-    margin-left: auto;
+    grid-column: 1/2;
+}
+
+#img2 {
+    grid-column: 2/3;
+}
+
+#img3 {
+    grid-column: 3/4;
 }
 
 .rankings h2 {
@@ -111,4 +119,5 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 32px;
+    
 }
