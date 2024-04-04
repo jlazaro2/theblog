@@ -4,10 +4,11 @@ h1 {
     font-style: normal;
     color: #664F35;
     font-size: 128px;
+    margin-left: 172px;
 }
 
 body {
-    background-color: #f5d2a28a;
+    background-color: #F5D3A2;
 }
 
 p {
@@ -16,4 +17,46 @@ p {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    font-size: 24px;
+}
+
+#studyspot {
+    height: 797px;
+    width: 705px;
+    margin-left: 735px;
+    margin-top: -600px;
+}
+
+#couch {
+    margin-left: 156px;
+    margin-top: -150px;
+}
+
+#paragraphone {
+    margin-left: 774px;
+    margin-top: -545px;
+    margin-right: 156px;
+}
+
+#paragraphtwo {
+    margin-left: 774px;
+    margin-top: 45px;
+    margin-right: 156px;
+}
+
+#foodboard {
+    margin-left: 15px;
+    margin-top: -550px;
+
+}
+
+#tables {
+    margin-left: 804px;
+    margin-top: -200px;
+}
+
+#paragraphthree {
+    margin-left: 172px;
+    margin-top: -450px;
+    margin-right: 804px;
 }
