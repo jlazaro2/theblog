@@ -114,6 +114,8 @@ h1 {
     flex-wrap: nowrap;
     align-items: center;
     gap: 50px;
+
+    margin-bottom: 0px;
 }
 
 .aboutMe h2 {
