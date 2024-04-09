@@ -1,10 +1,12 @@
 body {
     margin: 0px;
     width: 100%;
+    overflow-x: hidden;
 }
 
-.main img {
-    width: 100%;
+.main #computers {
+    margin-left: 839px;
+    margin-top: -105px;
 }
 
 h1 {
@@ -12,9 +14,9 @@ h1 {
     font-weight: 400;
     font-style: normal;
     color: #F5D3A2;
-    font-size: 128px;
+    font-size: 100px;
     position: absolute;
-    top: 700px;
+    top: 500px;
     left: 55%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -46,27 +48,23 @@ h1 {
     width: 100%;
 }
 
-#img1 {
-    margin-left: 0px;
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-#img2 {
-    margin-left: 429px;
+nav img:hover {
+    box-shadow: 10px 10px #A68156 
 }
 
-#img3 {
-    margin-left: 859px;
-}
-
-#sacred_grounds {
-    transform: rotate(90deg);
-    margin-left: -700px;
-    margin-top: 700px;
-}
-
-#cafe_revielle {
-    margin-top: -700px;
-    margin-left: 1100px;
+#links {
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .rankings h2 {
@@ -75,6 +73,8 @@ h1 {
     font-style: normal;
     color: #664F35;
     font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
 }
 
 .rankings a {
@@ -84,7 +84,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
-    font-size: 32px;;
+    font-size: 30px;;
 }
 
 .rankings a:hover {
@@ -92,7 +92,7 @@ h1 {
 }
 
 .map {
-    background-color: #A68156;
+    background-color: #F5D3A2;
     margin: 0px;
     padding-left: 50px;
     padding-right: 50px;
@@ -104,7 +104,7 @@ h1 {
 }
 
 .aboutMe {
-    background-color: #664F35;
+    background-color: #F5D3A2;
     width: 100%;
     padding: 50px;
 
@@ -118,20 +118,29 @@ h1 {
     margin-bottom: 0px;
 }
 
+.aboutMe img {
+    height: 300px;
+    width: 300px
+}
+
 .aboutMe h2 {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-style: normal;
-    color: #CC9E6A;
-    font-size: 100px;
+    color: #554F35;
+    font-size: 70px;
 }
 
 .aboutMe p {
-    color: #CC9E6A;
+    color: #403121;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 32px;
-    
+    font-size: 26px;
+}
+
+#description {
+    padding-left: 100px;
+    padding-right: 100px;
 }
